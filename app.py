@@ -15,6 +15,9 @@ async def on_message(message):
 
     if message.author.id == 763474179123052544:
         return
+    
+    if message.author.bot:
+        return
 
     messageString = str(message.content)
     messageString = messageString.translate(str.maketrans('', '', string.punctuation)).lower()
