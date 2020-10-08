@@ -27,7 +27,7 @@ async def on_message(message):
         with open('insults.txt','r') as textFile:
             insults = textFile.readlines()
 
-        await message.channel.send(f"{message.author.mention} {choice(insults)}", delete_after=10)
+        await message.channel.send(f"{message.author.mention} {choice(insults)}", delete_after=75)
         return
 
     else:
