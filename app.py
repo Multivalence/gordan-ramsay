@@ -36,9 +36,8 @@ async def on_message(message):
 
 
 
-client.run(os.environ['BOT_TOKEN'])
+client.run('Token Here')
 
 
 
-# https://discord.com/api/oauth2/authorize?client_id=763474179123052544&permissions=68608&scope=bot
 
