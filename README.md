@@ -1,2 +1,2 @@
 # gordan-ramsay
-Gordan Ramsay Bot for Aratorntrix
+Gordan Ramsay Bot that insults people whenever they say "dead chat"
